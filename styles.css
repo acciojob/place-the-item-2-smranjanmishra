@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+/* Apply Flexbox properties to the holder */
+.holder {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
+    gap: 10px; /* Add some spacing between the items */
+}
+
+/* Style for individual items */
+.item {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
